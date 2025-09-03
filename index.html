@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <title>Tradex Site</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="top-bar">
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="contact-info">
+          <span>267 Park Avenue New York, NY 90210</span>
+          <span>+1 (409 ) 987-5874</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="logo">
+           <img  style="background-color: #fff; width: 10%;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.p0q3cYgV0Jy6-omm90lVlwHaGu%3Fpid%3DApi&f=1&ipt=5199bc7a81d46b00e3b5fefa285c4d1f8a3c9f2df1a80dfd02fdfdffc002926f&ipo=images" alt="Tradex Logo" />
+              <g class="logo-color-part">
+                <path
+                  d="M38.8312 23.9999C38.8312 32.1931 32.1934 38.8309 24.0002 38.8309C15.807 38.8309 9.16919 32.1931 9.16919 23.9999C9.16919 15.8067 15.807 9.16895 24.0002 9.16895C32.1934 9.16895 38.8312 15.8067 38.8312 23.9999Z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0ZM9.16927 24C9.16927 32.1932 15.8071 38.831 24.0003 38.831C32.1935 38.831 38.8313 32.1932 38.8313 24C38.8313 15.8068 32.1935 9.169 24.0003 9.169C15.8071 9.169 9.16927 15.8068 9.16927 24Z"
+                ></path>
+                <path
+                  d="M17.7559 10.9999C18.6677 13.9118 19.1417 17.0175 19.1417 20.2449C19.1417 25.1105 17.8924 29.6978 15.8361 33.5815C18.0051 36.8837 21.011 39.5222 24.5028 41.2294C24.3312 41.2825 24.162 41.3323 24 41.3789C19.8516 38.8358 16.7909 35.1554 15.2533 30.8236C14.7351 30.9317 14.2127 31.0286 13.6872 31.1141C14.8817 34.6953 17.1528 37.8188 20.1551 40.0911C21.4394 39.2312 22.6393 38.2863 23.7381 37.2625C19.6845 34.2954 17.0768 29.4975 16.5912 24.1633C21.7824 24.5774 25.6882 25.9925 28.0261 28.0934C28.5303 27.2407 28.9749 26.342 29.3512 25.402C26.1774 23.0163 21.3664 21.8217 16.6346 21.3934C16.9298 17.1651 18.2586 13.2514 20.4074 10.1264C20.0898 10.2223 19.7716 10.3205 19.4528 10.4208C18.5369 10.6083 17.7122 10.7713 17.001 10.8932C17.2531 10.9293 17.5029 10.963 17.7559 10.9999Z"
+                ></p>
+              </g>
+              <g class="logo-text-part">
+                <path
+                  d="M62.0015 15.2635V33.7255H58.4255V23.5195L52.8815 33.7255H50.5955L45.0335 23.4475V33.7255H41.4575V15.2635H45.8735L51.7535 26.6875L57.5435 15.2635H62.0015Z"
+                ></path>
+                <path d="M72.2982 15.2635H75.8742V33.7255H72.2982V15.2635Z"></path>
+                <path
+                  d="M87.801 15.2635H94.941L91.137 23.1115L97.221 33.7255H90.225L86.133 25.6315L81.969 33.7255H74.973L81.057 23.1115L77.253 15.2635H84.393L87.801 21.3115V15.2635Z"
+                ></path>
+                <path
+                  d="M106.311 25.1321C106.311 28.0581 105.115 30.2941 102.835 31.8401C100.555 33.3861 97.9734 34.1591 95.0894 34.1591H89.9234V15.2635H95.4554C98.2434 15.2635 100.626 15.9395 102.602 17.2915C104.578 18.6435 105.566 20.5961 105.566 23.1481C105.566 24.3121 105.275 25.2981 104.693 26.1061C106.202 25.8625 106.311 25.4058 106.311 25.1321ZM101.405 22.8121C101.405 21.8441 101.071 21.0821 100.385 20.5261C99.6994 19.9701 98.6014 19.6921 97.0914 19.6921H93.5894V26.4361H96.9594C99.8254 26.4361 101.258 25.2101 101.258 22.8121H101.405Z"
+                ></path>
+                <path
+                  d="M117.934 30.2223L121.738 15.2635H125.662L118.846 33.7255H115.39L108.574 15.2635H112.498L116.302 30.2223H117.934Z"
+                ></path>
+                <path
+                  d="M141.748 15.2635V33.7255H138.172V23.5195L132.628 33.7255H130.342L124.78 23.4475V33.7255H121.204V15.2635H125.62L131.5 26.6875L137.29 15.2635H141.748Z"
+                ></path>
+                <path
+                  d="M147.284 27.6975V33.7255H143.708V15.2635H152.024V18.7895H147.284V24.2315H152.288V27.6975H147.284Z"
+                ></path>
+                <path
+                  d="M165.748 30.2223L169.552 15.2635H173.476L166.66 33.7255H163.204L156.388 15.2635H160.312L164.116 30.2223H165.748Z"
+                ></path>
+              </g>
+            </svg>
+        </div>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">HOME <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Home 01</a></li>
+              <li><a href="#">Home 02</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="dropdown">
+             <a href="#">HEADERS <i class="fa-solid fa-chevron-down"></i></a>
+             <ul class="dropdown-menu">
+                <li><a href="#">Header Style 1</a></li>
+                <li><a href="#">Header Style 2</a></li>
+                <li><a href="#">Header Style 3</a></li>
+              </ul>
+          </li>
+          <li><a href="#">BLOG POST</a></li>
+           <li class="dropdown">
+             <a href="#">SERVICES <i class="fa-solid fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Service One</a></li>
+                <li><a href="#">Service Two</a></li>
+              </ul>
+          </li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="owl-carousel owl-theme hero-slider">
+         
+  <div> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbajram.dev%2Fwp-content%2Fuploads%2F2024%2F07%2FMakeaGoodWebsite-BajramRamadan.jpg&f=1&nofb=1&ipt=d1e5491c5f34162ba124519c871cb28f7173fb40e69d8440ea8f55c952a099dd" alt=""> </div>
+  <div> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.IhiqRWFamp-enjV2csKdzwHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=dafe2a6c81ebecb5d7553a9a3d7a2b5f7a8ecf5d7d7f444d992b1e22377c825f&ipo=images" alt=""> </div>
+  <div> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIF.htzdSxVEjISXlDPDdO8ARw%3Fr%3D0%26pid%3DApi&f=1&ipt=4d77ac444771c592c8f822a386088f5364a983db5f27257949b65717d34cae47&ipo=images" alt=""> </div>
+  <div> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIF.ub3msj6rOBVFtY69X8FAhw%3Fr%3D0%26pid%3DApi&f=1&ipt=b2ee8082451c17c1f52f49a168fd824028e7574a14de35cacc2cad69033843fd&ipo=images" alt=""> </div>
+  <div> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.lNJ0H85ZzlLC_eG7dLs51gHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=4a46ad341c2793a7ccb7d5e87aed5d11be9f4bdb9750239f18b739e438f12733&ipo=images" alt=""> </div>
+
+  
+</div>
+        <h1 >Welcome to Tradex</h1> 
+      </section>
+
+      <section class="about-section">
+        <div class="about-header">
+          <h2>
+            <span class="decorator"></span>
+            About Us
+            <span class="decorator"></span>
+          </h2>
+        </div>
+
+<div class="main-about-container">
+    <div class="features-column">
+        <div class="card">
+            <span class="icon"><i class="fa-solid fa-microphone"></i></span>
+            <div class="text-content">
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="icon"><i class="fa-solid fa-sliders"></i></span>
+            <div class="text-content">
+                <h3>Great Usability</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="icon"><i class="fa-solid fa-pen-to-square"></i></span>
+            <div class="text-content">
+                <h3>Unique Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="icon"><i class="fa-solid fa-thumbs-up"></i></span>
+            <div class="text-content">
+                <h3>Quick & Powerful</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing..</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-column">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2M3TCJK%2Fyoung-business-people-meeting-office-teamwork-group-success-corporate-discussion-smiling-happy-businessman-portrait-2M3TCJK.jpg&f=1&nofb=1&ipt=def588bf91cef2b665cdac9b007f2ff46c9af08e93023ba5191eb0b8eb48de87" alt="About us image"/>
+    </div>
+
+    <div class="text-column">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae praesentium nostrum sunt, ipsam debitis quod laborum? Quis inventore at fugit? Nesciunt fuga iusto quo ullam rerum, qui ducimus minus? Porro atque tempore assumenda cupiditate voluptates consequuntur quam quidem nulla aliquam. Rem fugit ducimus illo quo accusantium doloremque excepturi itaque eos sunt, obcaecati fugiat sapiente delectus, ea officiis vel praesentium veritatis ipsa ipsum nostrum dolor at deserunt voluptatibus iste expedita. Veritatis doloribus ex, quo eligendi officia consectetur blanditiis ducimus sit culpa?</p>
+        <button>learn more</button>
+    </div>
+</div>
+
+      </section>
+      <div class="newsection">
+
+    <div class="stat-item">
+        <i class="fa-solid fa-laptop"></i>
+        <div class="stat-number">
+            <span class="num" data-val="8000">0</span> 
+        </div>
+        <div class="stat-text">Total Projects</div>
+    </div>
+
+    <div class="stat-item">
+        <i class="fa-solid fa-users"></i>
+        <div class="stat-number">
+            <span class="num" data-val="1000">0</span>+
+        </div>
+        <div class="stat-text">Happy Clients</div>
+    </div>
+
+    <div class="stat-item">
+        <i class="fa-solid fa-check"></i>
+        <div class="stat-number">
+            <span class="num" data-val="100">0</span>+
+        </div>
+        <div class="stat-text">Completed Projects</div>
+    </div>
+
+    <div class="stat-item">
+        <i class="fa-solid fa-clock"></i>
+        <div class="stat-number">
+            <span class="num" data-val="24">0</span>/7
+        </div>
+        <div class="stat-text">24/7 Support</div>
+    </div>
+
+</div>
+
+      <div class="our-services-section">
+         <div class="about-header">
+          <h2>
+            <span class="decorator"></span>
+          our services
+
+            <span class="decorator"></span>
+          </h2>
+        </div>
+        <div class="ourservcontent">
+          <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">marketing</p>
+          <div class="card__inner"><h2>marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi illum tempora!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?</p>
+             <a href="#" class="read-more-btn">Read More</a>
+
+          </div>
+
+          </div>
+              <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">infrastructure</p>
+          <div class="card__inner"><h2>marketing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore nam porro adipisci!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?</p>
+             <a href="#" class="read-more-btn">Read More</a>
+          </div>
+
+          </div>
+
+              <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">software</p>
+          <div class="card__inner"><h2>marketing</h2>
+            
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?</p>
+             <a href="#" class="read-more-btn">Read More</a>
+          </div>
+
+          </div>
+              <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">cloud</p>
+          <div class="card__inner"><h2>marketing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium ducimus provident?</p>
+
+             <a href="#" class="read-more-btn">Read More</a>
+
+          </div>
+
+          </div>
+              <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">security</p>
+          <div class="card__inner"><h2>marketing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium ducimus provident?</p>
+
+             <a href="#" class="read-more-btn">Read More</a>
+
+          </div>
+
+          </div>
+             <div class="card2"><i class="fa-solid fa-cloud-arrow-up ">
+            
+          </i>
+          <p style="font-size: 24px; font-weight: bold; color: rgb(255, 255, 255);text-align: center;">ai</p>
+          <div class="card__inner"><h2>marketing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate omnis earum cum natus consequatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium ducimus provident?</p>
+             <a href="#" class="read-more-btn">Read More</a>
+
+          </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="our-work" style="margin-top: 3%;">
+         <div class="about-header">
+          <h2>
+            <span class="decorator"></span>
+         our work 
+
+            <span class="decorator"></span>
+          </h2>
+          <div class="ourworkcontent" style="margin-top: 3%;">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus,<br> eu varius lorem mauris posuere dui. Proin consequat.</p>
+<ul ><li>all /</li>
+<li>web design /</li>
+<li>web development /</li>
+<li>graphic design /</li>
+</ul>
+<div class="card-container" style="margin-top: 3%;">
+  <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+
+
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+</div>
+  </div>
+  <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+</div>
+
+
+          </div>
+           <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+</div>
+
+
+          </div>
+           <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+</div>
+
+
+          </div>
+           <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+</div>
+
+
+          </div>
+           <div class="card11">
+   <div class="cardimg"><img src="https://img.freepik.com/free-photo/top-view-colorful-abstract-shape-background_23-2148823924.jpg" alt=""></div>
+    <div class="card__innerr">  <div class="card__text">
+    <p class="card__category">Developement, Graphic Design</p>
+    <h2 class="card__title">Project Title01</h2>
+  </div>
+  <div class="card__icon">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="big-img-container">
+        <img style=" margin-top: 70px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbajram.dev%2Fwp-content%2Fuploads%2F2024%2F07%2FMakeaGoodWebsite-BajramRamadan.jpg&f=1&nofb=1&ipt=d1e5491c5f34162ba124519c871cb28f7173fb40e69d8440ea8f55c952a099dd" alt="">
+      </div>
+<section class="our-creative-team">
+    <div class="about-header">
+        <h2 style="margin-top: 50px;">
+            <span class="decorator"></span>
+            Our Creative Team
+            <span class="decorator"></span>
+        </h2>
+    </div>
+    <div class="ourworkcontent">
+        <p style="margin-top: 20px; margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus,<br>  
+ eu varius lorem mauris posuere dui. Proin consequat.</p>
+        
+        <div class="team-container">
+
+            <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.YkSTZE8c-Z6zE79NbowZQwHaKT%3Fpid%3DApi&f=1&ipt=eaaf6c129c3486cdd5259dd0350666a423f9c2002724ed920b2aa018868581b9&ipo=images" alt="Mical Peterson">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">Mical Peterson</h3>
+                        <span class="team-profile-title">Founder</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.6BiwK0cTWKImDXP9o26UzQHaKT%3Fpid%3DApi&f=1&ipt=9c9147da7e8f9f4d97f276e861233ba0d6253a9862db6cd8ae39f66bdcb4e7b8&ipo=images" alt="Jane Smith">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">Jane Smith</h3>
+                        <span class="team-profile-title">Lead Designer</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.QWMHyV-16Z45YB8xj5AlmwHaLI%3Fcb%3Dthfc1%26pid%3DApi&f=1&ipt=79dc3857c9965b90be553b8c0e3ea2184e19c0a019b7aa8818c200a4a0b4489b&ipo=images" alt="John Doe">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">John Doe</h3>
+                        <span class="team-profile-title">Developer</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.974RLwGTWWzywq5v3HwRzgHaLK%3Fcb%3Dthfc1%26pid%3DApi&f=1&ipt=c18cdde6b555235e1c7565ca0c1723b7fd4e5aeb5a4707911771e5d1089704af&ipo=images" alt="John Doe">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">John Doe</h3>
+                        <span class="team-profile-title">Developer</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+               <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.RY3yz9UNOD7M5GD4t-mpcAHaKf%3Fpid%3DApi&f=1&ipt=32fe278d9a9acbff3f0e5d89a613bf3f94abb3b6a41e3ad25b28e89a676d4a53&ipo=images" alt="John Doe">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">John Doe</h3>
+                        <span class="team-profile-title">Developer</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+               <div class="team-profile-card">
+                <div class="team-profile-visible-content">
+                    <div class="team-profile-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.-TOKRp44aOvbwqOf6Qlh7gHaLS%3Fpid%3DApi&f=1&ipt=7f5540f27313e46443e5c9f7cbfd4622c4341e123f14944e4cc3cfd8d80715eb&ipo=images" alt="John Doe">
+                    </div>
+                    <div class="team-profile-info">
+                        <h3 class="team-profile-name">John Doe</h3>
+                        <span class="team-profile-title">Developer</span>
+                    </div>
+                </div>
+                <div class="team-profile-hover-content">
+                    <p class="team-profile-bio">
+                        Lorem ipsum dolor sit amet etgda ut exercitation ullamco consectetuer adipiscing elit Aenean commodo ligula.
+                    </p>
+                    <div class="team-profile-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="ourpricingsection">
+  <div class="about-header">
+    <h2 style="margin-top: 50px;">
+      <span class="decorator"></span>
+      Our Pricing
+      <span class="decorator"></span>
+    </h2>
+  </div>
+  <div class="ourpricingcontent">
+    <p style="margin-top: 20px; margin-bottom: 50px;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus,<br>
+      eu varius lorem mauris posuere dui. Proin consequat.
+    </p>
+  <div class="pricing-table-container">
+
+        <div class="pricing-card">
+           <div class="pricing-header">
+            <h2 class="plan-name">Personal</h2>
+            <p class="plan-price">From <span>$399</span></p>
+        </div>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>03 PSD Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>03 Wordpress Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>120 Support Tiket</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-primary">GET STARTED NOW</a>
+        </div>
+
+        <div class="pricing-card featured">
+           <div class="pricing-header">
+            <h2 class="plan-name">business</h2>
+            <p class="plan-price">From <span>$899</span></p>
+        </div>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>05 PSD Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>05 Wordpress Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>1000 Support Tiket</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-secondary">GET STARTED NOW</a>
+        </div>
+
+        <div class="pricing-card">
+           <div class="pricing-header">
+            <h2 class="plan-name">ultimate</h2>
+            <p class="plan-price">From <span>$499</span></p>
+        </div>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>20 PSD Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>20 Wordpress Pack</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+                <li class="feature-item">
+                    <div class="feature-title"><i class="fas fa-check"></i><h3>1500 Support Tiket</h3></div>
+                    <p class="feature-description">Lorem ipsum dolor sit amet, consectetuer  
+Aenean commodo ligula</p>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-primary">GET STARTED NOW</a>
+        </div>
+
+    </div>  
+  </div>
+
+
+</div>
+<div class="subcrib-section"><div class="content">
+  <i class="fa-solid fa-envelope"></i>  <h1>Subscribe now for news</h1> <input type="email" placeholder="Enter your email"> <button >Subscribe</button>
+
+</div></div>
+
+<div class="tesetimonail-section">
+  <div class="about-header">
+    <h2 style="margin-top: 50px;">
+      <span class="decorator"></span>
+      Testimonial
+      <span class="decorator"></span>
+    </h2>
+  </div>
+<div class="testimonial-slider owl-carousel owl-theme">
+   <div class="testimonial-card"> 
+        <div class="testimonial-image">
+            <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/testi-avtar-4.jpg" alt="Erich Trait">
+        </div>
+        <div class="testimonial-content">
+            <h3 class="author-name">Erich Trait</h3>
+            <span class="author-title">Developer</span>
+            <p class="author-bio">
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+            </p>
+        </div>
+    </div>
+      <div class="testimonial-card"> 
+        <div class="testimonial-image">
+            <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/testi-avtar-4.jpg" alt="Erich Trait">
+        </div>
+        <div class="testimonial-content">
+            <h3 class="author-name">Erich Trait</h3>
+            <span class="author-title">Developer</span>
+            <p class="author-bio">
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+            </p>
+        </div>
+    </div>
+
+</div>
+</div>
+<div class="latest-blog-section"> <div class="about-header">
+    <h2 style="margin-top: 50px;">
+      <span class="decorator"></span>
+      Latest Blog
+      <span class="decorator"></span>
+    </h2>
+    <p style="margin-top: 20px;">
+      Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Quae, quibusdam.
+    </p>
+  </div>
+ <div class="blog-cards-container">
+
+              <div class="blog-card">
+                  <div class="blog-social-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+
+                  <div class="blog-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.BovYbcCzqTr4QSpfokQt3wHaE7%3Fpid%3DApi&f=1&ipt=a571e8a10a9dd87082493a38b169cc1e0b10d3c0826664ecb6ad8d7ca182e319&ipo=images" alt="Business meeting">
+                  </div>
+
+                  <div class="blog-card-content">
+                      <h3 class="blog-title">Four Ways To Cheer And Plan Your Self Up On Blue</h3>
+                      <div class="blog-meta">
+                          <span>By: Dtm_Demo</span>
+                          <span>19 Dec 2018</span>
+                      </div>
+                      <p class="blog-excerpt">
+                          Lorem ipsum dolor sit amet, iounsectetur adipiscing elit. Aenean socada commodo ligula eget dolor. Aenean massa.
+                      </p>
+                      <a href="#" class="read-more">Read More &rarr;</a>
+                  </div>
+              </div>
+
+              <div class="blog-card">
+                  <div class="blog-social-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                  <div class="blog-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdrd.mx%2Fwp-content%2Fuploads%2F2024%2F01%2Fimg-team.jpg&f=1&nofb=1&ipt=f91cc23361b04e385776e7dceeee46bb139bd0ca1e3d78d62eca22c01cc01c16" alt="Team presentation">
+                  </div>
+                  <div class="blog-card-content">
+                      <h3 class="blog-title">What's The Difference Between Hospital & Extras Cover?</h3>
+                      <div class="blog-meta">
+                          <span>By: Dtm_Demo</span>
+                          <span>19 Dec 2018</span>
+                      </div>
+                      <p class="blog-excerpt">
+                          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum...
+                      </p>
+                      <a href="#" class="read-more">Read More &rarr;</a>
+                  </div>
+              </div>
+
+              <div class="blog-card">
+                   <div class="blog-social-icons">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                  <div class="blog-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg-s-msn-com.akamaized.net%2Ftenant%2Famp%2Fentityid%2FAA1nYYLZ.img%3Fw%3D768%26h%3D430%26m%3D6&f=1&nofb=1&ipt=cee69f0c52639a8f5781430fc8a6eaa6ff9bf7a23fdf5c47b70743ef29187b8f" alt="Man in a meeting">
+                  </div>
+                  <div class="blog-card-content">
+                      <h3 class="blog-title">Four Ways To Cheer And Plan Your Self Up On Blue</h3>
+                      <div class="blog-meta">
+                          <span>By: Dtm_Demo</span>
+                          <span>19 Dec 2018</span>
+                      </div>
+                      <p class="blog-excerpt">
+                          Lorem ipsum dolor sit amet, iounsectetur adipiscing elit. Aenean socada commodo ligula eget dolor. Aenean massa.
+                      </p>
+                      <a href="#" class="read-more">Read More &rarr;</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+</div>
+<div class="meet-our-clients">
+  <h2 style="margin-top: 100px; text-align: center; left: 0; ">
+   
+    Meet Our Clients
+    <span class="decorator"></span>
+  </h2>
+  <div class="content1">
+    
+    <div class="bigimg" ><img  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.DlOudKCmEo8dyYt-cqxZBwHaLI%3Fpid%3DApi&f=1&ipt=850c0c47d82cf90e01fa6484512ab71116a94f71975172b33c2f4fb7a7d19e17&ipo=images" alt=""></div>
+    
+    <div class="cardds-cont"><div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.rO6xzogSof0Y01QCUljw-AHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=47f4937e3ec4cbea800c2d0af1a38b104126675056ee548f2835bb648fe7b4f6&ipo=images" alt=""></div>
+     <div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.M_Vb7h1H0vUCYvINLaQAMAHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=9f930efe6192324993af4d2d49ed663eb1413e8ab90a8aec3f743f0976946f2b&ipo=images" alt=""></div>
+      <div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.rY1OA3lcUHX6bMsZgNmZ8wHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=27d2f52bec7c006ab041df1acc88285bd7017f11c1593abe14ff254da888c4d1&ipo=images" alt=""></div>
+      <div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.QW3bu4LM04e2UaVbD1wO8AHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=8157ca335f39c637e60f7c2135385f362803296d83d592ef711bca4e3a181b59&ipo=images" alt=""></div>
+      <div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.NusBFE6r8d5pLErCV8S1XwHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=3e2eab14eec988787a9fc48932c0416046b041615b7c91714f954ae6b44f1f44&ipo=images" alt=""></div>
+      <div class="cardd"><img  style="border: 1px solid rgb(0, 0, 0);"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthfvnext.bing.com%2Fth%2Fid%2FOIP.ZCx7MyBLVeV70iiLJIgC3QHaD4%3Fcb%3Dthfvnext%26pid%3DApi&f=1&ipt=ea91be8b6b5c7b2b03ca949f7ef65280844913e08cd5041362a5fabd9c9ddb6a&ipo=images" alt=""></div>
+    </div>
+  </div>
+</div>
+    </main>
+ <div class="promo-bar">
+        <div class="promo-bar-content">
+            <div class="promo-text">
+                <i class="fa-solid fa-phone-volume icon-phone"></i>
+                <span>If You Like This Grate Work ?? For You Site...</span>
+            </div>
+            <button class="purchase-button">Purchase Now</button>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-location-dot"></i>123 Street Market, Life Plaza, New York</p>
+                    <p><i class="fa-solid fa-phone"></i>987654321</p>
+                    <p><i class="fa-solid fa-envelope"></i>team@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Posts</h3>
+                <div class="posts-list">
+                    <div class="post-item">
+                        <img src="https://i.imgur.com/gOisDfs.png" alt="Meeting room with people">
+                        <div class="post-details">
+                            <p class="post-title">Four ways to cheer and plan your self up on Blue</p>
+                            <p class="post-date"><i class="fa-regular fa-calendar"></i>December 19, 2018</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="https://i.imgur.com/uEA9j2c.png" alt="Man presenting to a group">
+                        <div class="post-details">
+                            <p class="post-title">Four ways to cheer and plan your self up on Blue</p>
+                            <p class="post-date"><i class="fa-regular fa-calendar"></i>December 19, 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Popular</h3>
+                <div class="popular-tags">
+                    <span class="tag">Accountancy</span>
+                    <span class="tag">Affiliate</span>
+                    <span class="tag">Branding</span>
+                    <span class="tag">Construction</span>
+                    <span class="tag">Design</span>
+                    <span class="tag">Drupal</span>
+                    <span class="tag">Education</span>
+                    <span class="tag">Graphics</span>
+                    <span class="tag">Joomla</span>
+                    <span class="tag">Marketing</span>
+                    <span class="tag">Money</span>
+                    <span class="tag">Tally</span>
+                    <span class="tag">Transform</span>
+                    <span class="tag">Website</span>
+                    <span class="tag">Wordpress</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="theme-switcher">
+        <div class="color-options">
+             <h3>COLOR SKIN</h3>
+            <div class="color-grid">
+              <div class="color-box" style="background-color: #007bff;" data-color="#007bff"></div>
+              <div class="color-box" style="background-color: #00bcd4;" data-color="#00bcd4"></div>
+              <div class="color-box" style="background-color: #3f51b5;" data-color="#3f51b5"></div>
+              <div class="color-box" style="background-color: #4CAF50;" data-color="#4CAF50"></div>
+              <div class="color-box" style="background-color: #ff9800;" data-color="#ff9800"></div>
+              <div class="color-box" style="background-color: #8bc34a;" data-color="#8bc34a"></div>
+              <div class="color-box" style="background-color: #673ab7;" data-color="#673ab7"></div>
+              <div class="color-box" style="background-color: #e91e63;" data-color="#e91e63"></div>
+            </div>
+        </div>
+         <div class="gear-icon">
+            <i class="fas fa-cog"></i>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
